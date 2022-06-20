@@ -1,0 +1,7 @@
+os
+numpy
+scipy
+matplotlib
+pypl2
+
+(get pypl2 from the Plexon software development kit website: https://plexon.com/software-downloads/#software-downloads-SDKs
