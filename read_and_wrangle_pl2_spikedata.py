@@ -1,5 +1,5 @@
 '''
-pl2_spike_extraction_utilities.py
+read_and_wrangle_pl2_spikedata.py
 
 This module extracts spikes and makes a spike table.
 
