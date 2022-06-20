@@ -63,6 +63,12 @@ def make_spike_table(spk_dir, trodality, align_event,inclusion_event,
                     --> has 1s where spikes occurred and 0s otherwise
 
         raster_times = timesteps in trial at millisecond resolution
+        
+        
+        unit_info = numpy array with shape n_units x 2
+                    --> first column = channel number
+                    --> second column = unit number on channel
+                    e.g. a row with values [1,2] = channel 1, unit 2 on channel 1
 
         These .npz files can be read out with e.g. np.load(save_dir + save_name + '.npz')
         EXAMPLE:
